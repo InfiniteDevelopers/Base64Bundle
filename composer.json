@@ -1,0 +1,21 @@
+{
+	"name": "infinitedevelopers/base64bundle",
+    "type": "symfony-bundle",
+    "description": "Twig function convert image file to base64",
+    "keywords": ["image", "base64", "twig extension"],
+    "homepage": "http://github.com/InfiniteDevelopers/Base64Bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "François Di Cioccio",
+            "email": "bidubida@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-0": { "InfiniteDevelopers\\Base64Bundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "InfiniteDevelopers/Base64Bundle"
+}

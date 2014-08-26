@@ -16,6 +16,6 @@
     "autoload": {
         "psr-0": { "InfiniteDevelopers\\Base64Bundle": "" }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "target-dir": "InfiniteDevelopers/Base64Bundle"
 }

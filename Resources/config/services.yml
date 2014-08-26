@@ -1,8 +1,8 @@
 parameters:
-	infinite_developers_bas64.image_extension.class: InfiniteDevelopers\Base64Bundle\Twig\ImageExtension
+    infinite_developers_base64.image_extension.class: InfiniteDevelopers\Base64Bundle\Twig\ImageExtension
 
 services:
-    infinite_developers_bas64.image_extension:
+    infinite_developers_base64.image_extension:
         class: %infinite_developers_base64.image_extension.class%
         tags:
             - { name: twig.extension }

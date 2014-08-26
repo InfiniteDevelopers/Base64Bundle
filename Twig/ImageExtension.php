@@ -20,8 +20,6 @@ class ImageExtension extends \Twig_Extension
      */
     public function image64($path)
     {
-        $path = __DIR__.'/../'.$path;
-        
         $file = new File($path, false);
         
         if (!$file->isFile() || 0 !== strpos($file->getMimeType(), 'image/')) {

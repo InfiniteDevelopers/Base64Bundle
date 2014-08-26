@@ -11,8 +11,6 @@
             "email": "bidubida@gmail.com"
         }
     ],
-    "require": {
-    },
     "autoload": {
         "psr-0": { "InfiniteDevelopers\\Base64Bundle": "" }
     },
